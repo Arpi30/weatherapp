@@ -113,8 +113,8 @@ $(document).ready(function () {
                                     </div>
                                     <div class="Card-body-body">
                                         <p class="Card-text">${element.comment}</p>
-                                        <p class="Card-text1">Max: ${element.max_temp.c}</p>
-                                        <p class="Card-text2">Min: ${element.min_temp.c}</p>
+                                        <p class="Card-text1"">Max: <span style="color:red; font-weight: 500">${element.max_temp.c}</span></p>
+                                        <p class="Card-text2">Min: <span style="color:blue; font-weight: 500">${element.min_temp.c}</span></p>
                                     </div>
                                 </div>
                             </div>`
