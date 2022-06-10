@@ -106,12 +106,16 @@ $(document).ready(function () {
 
             listHTML += `   
                             <div class="Card m-1" style="width: 8rem;">
-                                <img src="${element.iconURL}" class="Card-img-top">
                                 <div class="Card-body">
-                                    <h5 class="Card-title">${element.day}</h5>
-                                    <p class="Card-text">${element.comment}</p>
-                                    <p class="Card-text1">Max: ${element.max_temp.c}</p>
-                                    <p class="Card-text2">Min: ${element.min_temp.c}</p>
+                                    <div class="Card-body-header">
+                                        <img src="${element.iconURL}" class="Card-img-top">
+                                        <h5 class="Card-title">${element.day}</h5>
+                                    </div>
+                                    <div class="Card-body-body">
+                                        <p class="Card-text">${element.comment}</p>
+                                        <p class="Card-text1">Max: ${element.max_temp.c}</p>
+                                        <p class="Card-text2">Min: ${element.min_temp.c}</p>
+                                    </div>
                                 </div>
                             </div>`
         });
