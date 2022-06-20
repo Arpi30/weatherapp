@@ -64,9 +64,6 @@ body{
 }.Card-text{
     text-decoration: underline;
 }
-.Card-text,.Card-text1, .Card-text2{
-
-}
 
 @keyframes myAnim {
     0% {
